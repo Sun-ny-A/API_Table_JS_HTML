@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Driver Standings</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./main.js" defer></script>
+</head>
+<body>
+    <h2 id="h2"> Driver Standings</h2>
+    <form id="form">
+        <label for="season">Season: </label>
+        <input type="text" id="season" name="season" required>
+        <label for="round">Round: </label>
+        <input type="number" id="round" name="round" required>
+        <button type="submit">Show Standings</button>
+    </form>
+    <table id="tableInfo">
+        <thead>
+            <tr id="table-headings">
+                <th>Position</th>
+                <th>Driver</th>
+                <th>Nationality</th>
+                <th>Points</th>
+                <th>Wins</th>
+                <th>Sponsor</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</body>
+</html>

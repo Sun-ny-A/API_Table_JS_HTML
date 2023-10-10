@@ -1,0 +1,76 @@
+#h2{
+    font-family: Arial;
+    font-size: 30px;
+    border-style: double;
+    border-width: 10px;
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#form {
+    margin: auto;
+    padding: 20px;
+    background-color: gray;
+    border: 5px solid white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#tableInfo {
+    font-family: Arial;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#table-headings {
+    text-align: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+body {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+label{
+    margin: 20px;
+}
+
+input{
+    margin: 10px;
+    border-style: double;
+    padding: 2px;
+    border-width: 5px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    margin-top: 20px;
+    border-style: double;
+    padding: 2px;
+    border-width: 5px;
+}
+
+th {
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+    border: .5px solid white;
+}
+
